@@ -1,0 +1,38 @@
+ body { 
+    background-color: #5C4A72;
+  }
+
+.to-do {
+  background-color: #F3B05A;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto; 
+}
+
+#to-do-form input{
+  background-color: #F4874B;
+  padding: 0 20px;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  margin: 25px;
+  border-radius: 10px;   
+}
+
+#to-do-form input::placeholder {
+  color: black;
+}
+
+#to-do-form input:focus {
+  outline: none;
+}
+
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border: 0px;
+  background-color: #F46A4E;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+}
